@@ -7,6 +7,7 @@
 import React, { Component } from 'react';
 import { AppRegistry, Text, Image , View, ScrollView, WebView, ListView, Button, Alert, FlatList, SectionList, StyleSheet, ActivityIndicator } from 'react-native';
 
+// Custom component
 class Greeting extends Component {
   render() {
     return (
@@ -15,6 +16,7 @@ class Greeting extends Component {
   }
 }
 
+// Component with constructor
 class Blink extends Component {
   constructor(props) {
     super(props);
@@ -49,6 +51,7 @@ class BlinkApp extends Component {
   }
 }
 
+// FlatList
 class FlatListBasics extends Component {
   render() {
     return (
@@ -83,6 +86,7 @@ const stylesFlatList = StyleSheet.create({
   },
 })
 
+// SectionList
 class SectionListBasics extends Component {
   render() {
     return (
@@ -122,6 +126,7 @@ const stylesSectionList = StyleSheet.create({
   },
 })
 
+// Fetch data from network
 class Movies extends Component {
 	constructor(props) {
 		super(props);
@@ -167,6 +172,7 @@ class Movies extends Component {
 	}
 }
 
+// App entry
 export default class HelloWorldApp extends Component {
   render() {
     return (
