@@ -75,11 +75,13 @@ $ ~/Library/Android/sdk/tools/emulator -avd Nexus_5X_API_27_x86
 ```sh
 $ react-native run-android
 ```
+![android](docs/android.png)
 
 - Run demo ios simulator
 ```sh
 $ react-native run-ios
 ```
+![iphone](docs/iphone.png)
 
 - How to use hot reloading
 
