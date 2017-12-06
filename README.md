@@ -22,7 +22,7 @@ $ npm install -g react-native-cli
 
 - watchman
 ```sh
-$ brew install watchman
+$ brew install --build-from-source watchman
 ```
 
 - Set environment variables
