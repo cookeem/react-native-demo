@@ -3,9 +3,11 @@
 ## Prerequisites
 
 - Android Studio 
+
 [install guide](https://developer.android.com/studio/index.html)
 
 - Xcode 
+
 [install guide](https://developer.apple.com/xcode/)
 
 - Node
